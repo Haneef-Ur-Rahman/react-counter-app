@@ -7,11 +7,18 @@
   align-items: center;
   display: flex;
 }
-body{
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
   background: linear-gradient(135deg, #ff00ff, #00ffff, #39ff14, #ff1493, #00f0ff);
-   animation: neonShift 12s ease infinite;
-
+  animation: neonShift 12s ease infinite;
+  background-size: cover; /* fills entire screen */
+  background-repeat: no-repeat; /* no duplicate tiles */
+  background-attachment: fixed; /* keeps background in place when scrolling */
+  font-family: 'Segoe UI', sans-serif;
 }
+
 
 .logo {
   height: 6em;
