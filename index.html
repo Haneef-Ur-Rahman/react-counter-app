@@ -9,7 +9,7 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <title> Vite + React </title>
+    <title> React Counter App </title>
   </head>
   <body>
     <div id="root">
@@ -22,7 +22,7 @@
       function Count(){
      const[count,setCount] = useState(0);
      return(
-        <div style={{height:"530px", width:"300px",paddingTop: "10px", border: "6px solid white",boxShadow: "0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0", backgroundColor:"black", color:"white", }}> 
+        <div style={{height:"570px", width:"300px",paddingTop: "10px", border: "6px solid white",boxShadow: "0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0", backgroundColor:"black", color:"white", }}> 
         <h1> Counter <h1 style={{color:"yellow"}}> ( {count} ) </h1> </h1>
         <div style={{gap:"20px"}}>
          <button style={{height:"50px",width:"100px",fontSize:"30px",border:"4px solid red",padding:"3px"}} onClick={() => setCount(count + 1)}> + </button> <br /> <br />
